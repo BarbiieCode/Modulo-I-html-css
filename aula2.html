@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+        <head>  
+            <title> Site da Barbara </title>
+            <meta name="description" content="site em html">
+            <style>
+                body{
+                    background-color: gray;
+                }
+                h1 {
+                    color: purple;
+                }
+        
+            </style>
+            <link rel="stylesheet" href="style.css">
+
+        </head> 
+            
+        <body>
+            
+            <p>
+                <!-- Montar listas-->
+
+                <h1>Listas Ordenadas</h1>
+                
+                
+                <h2 class="mudarCorAqui"> Lista Ordenada numerica</h2>
+                
+                <ol>                    
+                    <li>Comprar pão</li>
+                    <li>Fazer pão</li>
+                    <li>Me alimentar</li>
+                </ol>
+            
+                <h2>Lista Ordenada numerica - a partir de uma contagem</h2>
+                <ol start="5" class="mudarAqui">
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ol>
+
+                <h2>Lista Ordenada Numero Romano - a partir de uma contagem</h2>
+                <ol type="I" start="10">
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ol>  
+
+                <h2>Lista Ordenada Aninhada</h2>
+                <ol>
+                    <li> Estudar </li>
+                    <li> Criar Portfolio
+                        <ol>
+                            <li>segundo item primeiro subitem</li>
+                            <li>segundo item segundo subitem</li>
+                            <li>segundo item terceiro subitem</li>
+                        </ol>
+                        </li>
+                    <li> Arrumar emprego!!</li>
+                </ol>
+
+                <h2>Lista Ordenada em ordem alfabetica </h2>
+                <ol type="A">
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ol>
+
+                <h2>Lista Ordenada em numeros romanos</h2>
+                <ol type="I">
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ol>
+                
+                <h1>Lista Desordenada</h1>
+
+                <h2> Lista desordenada pontinho</h2>
+                <ul>
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ul>
+
+                <h2>Lista desordenada quadradinho</h2>
+                <ul type="square">
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ul>
+
+                <h2>Lista desordenada circulo vazado</h2>
+                <ul type="circle">
+                    <li> Estudar</li>
+                    <li> Criar Portfolio</li>
+                    <li> Arrumar emprego!!</li>
+                </ul>    
+                 
+            </p>
+        
+            <!-- Criacao de tabelas-->
+
+            <h1 id="titulo">Tabela com celula vazia</h1>
+
+            <table border="2">
+                   
+                    <thead>
+                         
+                        <tr>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Cidade</th>
+                        </tr>
+    
+                    </thead>
+    
+                <tbody> 
+                    <tr>
+                    <td>Barbara</td>
+                    <td>28</td>
+                    <td>Sao Paulo</td>
+                </tr>
+
+                <tr>    
+                    <td>Bianca</td>
+                    <td>19</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+
+                <tr>
+                    <td>Beatriz</td>
+                    <td>47</td>
+                    <td>Bahia</td>
+                </tr>
+                </tbody>    
+             </table>
+
+             <!-- Inserindo imagem-->
+
+             <h1>Barbara Damascena</h1>
+             <img src="bassis1.JPG" width="200" height="200"/>
+             
+             <h2> Barbara Damascena</h2>
+             <img src="bassis.JPG" width="200" height="200"/>
+
+             <h3>Inserindo Links</h3>
+             <h2> <a href="https://www.linkedin.com/in/barbaradamascenassis/" target="_blank"> Meu linkedin</a> </h2>
+
+             <h1>Formulario</h1>
+
+             <form>
+                
+                <label>Nome: </label>
+                <input type="text">
+                <br>
+                <label>Email: </label>
+                <input type="email">
+                <br>
+                <label>Senha: </label>
+                <input type="password">
+                <br>
+                <label>Mensagem: </label>
+                <textarea></textarea>
+                <br>
+                <button type="submit"> Enviar</button>
+             </form>
+        </body>
+    </html>

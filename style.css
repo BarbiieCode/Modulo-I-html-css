@@ -1,0 +1,20 @@
+.mudarCorAqui {
+    color: aqua;
+}
+.mudarAqui {
+    color: brown;
+}
+#titulo {
+    color: pink;
+}
+.paragrafo {
+
+    font-size: 17;
+    font-family: monospace;
+    line-height: 1;
+    border-width: 30px;
+    border-style: solid;
+    border-color:  blue;
+
+}
+    
